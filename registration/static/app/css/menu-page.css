@@ -1,0 +1,82 @@
+.menu-page-container {
+  width: 390px;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #b1b1b1;
+}
+.menu-page-frame5 {
+  width: 390px;
+  height: 844px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.menu-page-component4 {
+  width: 390px;
+  height: 223px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.menu-page-shalala1 {
+  top: 0px;
+  flex: 0;
+  left: 0px;
+  height: 844px;
+  position: absolute;
+  align-self: flex-start;
+  border-color: transparent;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.menu-page-frame4 {
+  top: -90px;
+  left: -1px;
+  width: 390px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 335px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  border-radius: 50px;
+  justify-content: center;
+  background-color: #906400;
+}
+.menu-page-image1 {
+  top: 71px;
+  left: 35px;
+  width: 212px;
+  height: 81px;
+  position: absolute;
+  border-color: transparent;
+}
+.menu-page-pngwing2 {
+  top: 77px;
+  left: 264px;
+  width: 82px;
+  height: 69px;
+  position: absolute;
+  border-color: transparent;
+}
+.menu-page-container1 {
+  top: 269px;
+  left: 0px;
+  right: 0px;
+  width: 370px;
+  height: 559px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+  flex-direction: column;
+}

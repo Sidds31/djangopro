@@ -1,0 +1,121 @@
+.login1-container {
+  min-height: 100vh;
+}
+.login1-frame1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.login1-maskgroup {
+  width: 390px;
+  height: 844px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.login1-component2 {
+  top: 0px;
+  left: 0px;
+  width: 390px;
+  height: 844px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.login1-i-phone141 {
+  top: 0px;
+  left: 0px;
+  width: 390px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 844px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-size: cover;
+  background-image: url("public/playground_assets/f9bf0eb9-43b3-4000-a7a1-a647e45a54e8-bz5h-900h.undefined");
+}
+.login1-shalala1 {
+  flex: 0;
+  width: 844px;
+  align-self: stretch;
+  border-color: transparent;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.login1-text {
+  top: 605px;
+  left: 25px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.login1-image1 {
+  top: 219px;
+  left: 25px;
+  width: 341px;
+  height: 126px;
+  position: absolute;
+  border-color: transparent;
+}
+.login1-text5 {
+  top: 180px;
+  left: 99px;
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Fontdiner Swanky;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.login1-navlink {
+  display: contents;
+}
+.login1-vector {
+  top: 566px;
+  right: 0px;
+  width: 102px;
+  height: 150px;
+  position: absolute;
+  box-sizing: content-box;
+  border-radius: var(--dl-radius-radius-radius2);
+  text-decoration: none;
+}

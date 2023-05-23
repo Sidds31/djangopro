@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Checkout {% endblock title %}
+{% block main-contant %}
+    <div class="container">
+        {% if messages %}
+            {% for msg in messages %}
+                <div class="alert alert-danger" role="alert">
+                    {{ msg }}
+                </div>
+            {% endfor %}
+        {% endif %}
+        <div class="row mt-5">
+            <div class="col-sm-6">
+                <h4>Order Summary</h4>
+                <hr>
+                {% for item in cart_items %}
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            <h5>Product: {{ item.product.title }}</h5>
+                            <p>Quantity: {{ item.quantity }}</p>
+                            <p class="fw-bold">Price: {{ item.product.discounted_price }}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+
+
+                <p class="fw-bold">Total Cost = {{ totalamount }}</p>
+                <small>Term and Condition: Lorem ipsum dolor sit amet consectetur adipisicing elit. M minus rem. Facilis
+                    cumque neque numquam laboriosam, accusantium adipisci nisi nihil i  </small>
+                </div>
+                    <div class="col-sm-4 offset-sm-1">
+                    <h4>Confirm Amount</h4>
+                    <hr>
+
+            <div class=" form-check mb-3">
+                        <label for="totalamount" class="form-label">Total Amount</label>
+                        <input type="number" class="form-control" name="totalamount" value={{ totalamount }} readonly>
+                        </div>
+                        <div class="text-end"  >
+                            <form action="/prints">
+                                <button type="submit" class="btn btn-warning mt-3 px-5 fw-bold">Place Order</button>
+                            </form>
+
+                            <!-- <div id="paypal-button-container"></div> -->
+                            {% comment %} <button id="rzp-button1" type="submit" class="btn btn-warning mt-3 px-5 fw-bold">Payment</button> {% endcomment %}
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </div>
+{% endblock main-contant %}

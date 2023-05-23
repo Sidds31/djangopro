@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LanguageInjectionConfiguration">
+    <injection language="HTML" injector-id="xml">
+      <display-name>a/@href</display-name>
+      <single-file value="false" />
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("href")).withParent(xmlTag().withLocalName(string().equalTo("a")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+  </component>
+</project>
